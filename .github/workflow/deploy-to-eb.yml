@@ -3,6 +3,7 @@ name: deploy-to-eb
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   deploy:
